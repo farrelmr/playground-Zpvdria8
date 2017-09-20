@@ -25,6 +25,7 @@ public class SpringbootApplicationTests {
     public void myFirstSpringBootApplication() throws Exception {
         mockMvc.perform(get("/myFirstSpringBootApplication"))
                 .andExpect(content().string(containsString("Well done creating your first Spring Boot Application")));
+				
     }
 
 }
